@@ -1,0 +1,69 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12 27, 22, 12:41:55 PM
+    @author MarcoMan
+ * Subscribe our YouTube Channel: https://www.youtube.com/@marcomanchannel
+*/
+
+.side-form{
+    -fx-background-color: linear-gradient(to top right, #2c2c57, #392b78);
+    -fx-border-color: #000;
+    -fx-border-width: .4px .2px .4px .4px;
+}
+
+.side-btn{
+    -fx-background-color: transparent;
+    -fx-text-fill: #fff;
+    -fx-font-family: Arial;
+    -fx-font-size: 14px;
+    -fx-border-color: #fff;
+    -fx-border-width: .5px;
+    -fx-cursor:hand;
+}
+
+.close{
+    -fx-background-color: transparent;
+    -fx-cursor: hand; 
+}
+.close:hover{
+    -fx-background-color: #da3341;
+}
+
+.side-btn:hover{
+    -fx-background-color: #fff;
+    -fx-text-fill: #392b78;
+}
+
+.login-form{
+    -fx-background-color: #fff;
+    -fx-border-color: #000;
+    -fx-border-width: .4px .4px .4px .2px;
+}
+
+.login-btn{
+    -fx-background-color: linear-gradient(to top right, #2c2c57, #392b78);
+    -fx-cursor: hand;
+    -fx-text-fill: #fff;
+    -fx-font-size: 14px;
+    -fx-font-family: Arial;
+}
+.login-btn:hover{
+    -fx-background-color: linear-gradient(to top right, #404082, #3f2ba4);
+}
+
+.textfield{
+    -fx-background-color: #efefef;
+    -fx-font-size: 13px;
+    -fx-font-family: Tahoma;
+    -fx-border-color: #000;
+    -fx-border-width: .3px;
+}
+.textfield:focused{
+    -fx-background-color: #fff;
+    -fx-border-width: 1px;
+    -fx-border-color: #3f2ba4;
+}
